@@ -1,0 +1,88 @@
+**READ ME**
+
+#Why this tribute page?
+
+I chose Robin Williams as he was one of my favourite child-hood actors. I still feel sad to know that he is no longer with us sharing his joy and laughter with the world.
+
+#What I’ve learnt while making this page?
+
+* How to put what i have learnt into practice 
+* It required understanding and thinking about i was putting in the code to make it work - there were times where I couldn’t get the code to work or to pass the test which meant going through the code line by line and checking each part to ensure there were no errors and delivered on the user stories
+*It’s easy to make mistakes 
+*Understand the differences between HTML and CSS but easy to struggle on the CSS side - mainly when to use classes and id’s.
+
+#Reflections on the development journey?
+Preferred doing the free code camp tutorials first and then putting that knowledge to use by building something - this was daunting initially but got into it after an hour.
+I would have liked to do more on the page but stopped as when I added more code, at times the test would fail for no reason so removed those extra bits.
+I really enjoyed bringing a page to life - it looks simple but you have to start somewhere.
+
+
+**THE CODE**
+
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+   <meta name="Ayshen Chase" content="A tribute page about Robin Williams">
+<title>Tribute Page</title>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+   
+   <style>
+     #title {
+      font-size: 50px
+     }
+     #img-caption
+{
+  width: 860px
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+     
+     body {
+       background-color: black;
+       color: white;
+       font-family: Roboto, ariel;
+     }
+     </style>
+ </head>
+  
+<div id="main">
+  
+  <h1 id="title"> Robin Williams </h1>
+  
+   <div id="img-div">
+<a href="https://www.youtube.com/watch?v=R0t7gFSW5aQ"><img id=image src="https://static.newmobilelife.com/wp-content/uploads/2014/08/remembering-robin-williams.png" alt= "Robin Williams picture"></a>                                                      
+ <br><br>
+ 
+<p id="img-caption"> As he is remembered, it is our hope the focus will not be on Robin's death, but on the countless moments of joy and laughter he gave to millions. Robin McLaurin Williams (July 21, 1951 – August 11, 2014) was an American actor and comedian. Known for his improvisational skills and the wide variety of characters he created on the spur of the moment and portrayed on film, in dramas and comedies alike,he is regarded as one of the best comedians of all time. </p>                                   
+  </div>
+                             
+  <p id="tribute-info">
+  <b> BEST Films </b> 
+     <ul>
+                      <li> <a href="https://www.imdb.com/title/tt0102057/" target="_blank" style="color:pink"; id="tribute-link">1991 - Hook </a></li>
+                      <li><a href="https://www.imdb.com/title/tt0107614/" target="_blank" style="color:pink;" id="tribute-link"> 1993 - Mrs Doubtfire </a></li>
+                      <li><a href="https://www.imdb.com/title/tt0113497/" target="_blank"style="color:pink;" id="tribute-link"> 1995 - Jumanji </a></li>
+                      <li><a href="https://www.imdb.com/title/tt0119137/" target="_blank"style="color:pink;" id="tribute-link">1997 - Flubber </a></li>
+                      </p>
+                  
+   </div>    
+    <p id="tribute-info2">
+    <b> BEST Moments</b>
+     <ul>
+                      <li> The fight scene aboard Captain Hook’s ship in the adaptation "Hook” (1991) is a classic. </li>
+                      <li> Williams brought the genie to life in the Disney hit "Aladdin" (1992). The actor's vibrant energy is encapsulated by the animated character. </li>
+                      <li> Williams demonstrates his improvisational genius in this dancing scene from "The Birdcage" (1996) with Nathan Lane. </li>
+                      <li> This scene in the children's ward of "Patch Adams" (1998) shows that sometimes the best medicine is a laugh. </li>
+                      </p>
+   </div>
+
+    </body>
+</html>
